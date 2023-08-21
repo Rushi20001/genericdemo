@@ -3,7 +3,7 @@
 public class ID<T >
 {
     public T Id { get; set; }
-    public T createdOn { get; set; }
+    
 }
 
 public class Customer : ID<int>
